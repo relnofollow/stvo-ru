@@ -1,0 +1,298 @@
+{
+    "1": {
+      "title": "§ 1 Grundregeln",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__1.html",
+      "slug": "01-basic-rules"
+    },
+    "2": {
+      "title": "§ 2 Straßenbenutzung durch Fahrzeuge",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__2.html",
+      "slug": "02-road-use"
+    },
+    "3": {
+      "title": "§ 3 Geschwindigkeit",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__3.html",
+      "slug": "03-speed"
+    },
+    "4": {
+      "title": "§ 4 Abstand",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__4.html",
+      "slug": "04-distance"
+    },
+    "5": {
+      "title": "§ 5 Überholen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__5.html",
+      "slug": "05-overtaking"
+    },
+    "6": {
+      "title": "§ 6 Vorbeifahren",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__6.html",
+      "slug": "06-passing"
+    },
+    "7": {
+      "title": "§ 7 Benutzung von Fahrstreifen durch Kraftfahrzeuge",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__7.html",
+      "slug": "07-lane-use"
+    },
+    "7a": {
+      "title": "§ 7a Abgehende Fahrstreifen, Einfädelungs- und Ausfädelungsstreifen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__7a.html",
+      "slug": "07a-exit-lanes"
+    },
+    "8": {
+      "title": "§ 8 Vorfahrt",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__8.html",
+      "slug": "08-right-of-way"
+    },
+    "9": {
+      "title": "§ 9 Abbiegen, Wenden und Rückwärtsfahren",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__9.html",
+      "slug": "09-turning"
+    },
+    "10": {
+      "title": "§ 10 Einfahren und Anfahren",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__10.html",
+      "slug": "10-entering"
+    },
+    "11": {
+      "title": "§ 11 Besondere Verkehrslagen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__11.html",
+      "slug": "11-special-conditions"
+    },
+    "12": {
+      "title": "§ 12 Halten und Parken",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__12.html",
+      "slug": "12-parking"
+    },
+    "13": {
+      "title": "§ 13 Einrichtungen zur Überwachung der Parkzeit",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__13.html",
+      "slug": "13-parking-control"
+    },
+    "14": {
+      "title": "§ 14 Sorgfaltspflichten beim Ein- und Aussteigen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__14.html",
+      "slug": "14-boarding"
+    },
+    "15": {
+      "title": "§ 15 Liegenbleiben von Fahrzeugen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__15.html",
+      "slug": "15-vehicle-breakdown"
+    },
+    "15a": {
+      "title": "§ 15a Abschleppen von Fahrzeugen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__15a.html",
+      "slug": "15a-towing"
+    },
+    "16": {
+      "title": "§ 16 Warnzeichen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__16.html",
+      "slug": "16-warning-signs"
+    },
+    "17": {
+      "title": "§ 17 Beleuchtung",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__17.html",
+      "slug": "17-lighting"
+    },
+    "18": {
+      "title": "§ 18 Autobahnen und Kraftfahrstraßen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__18.html",
+      "slug": "18-highways"
+    },
+    "19": {
+      "title": "§ 19 Bahnübergänge",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__19.html",
+      "slug": "19-rail-crossings"
+    },
+    "20": {
+      "title": "§ 20 Öffentliche Verkehrsmittel und Schulbusse",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__20.html",
+      "slug": "20-public-transport"
+    },
+    "21": {
+      "title": "§ 21 Personenbeförderung",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__21.html",
+      "slug": "21-passenger-transport"
+    },
+    "21a": {
+      "title": "§ 21a Sicherheitsgurte, Rollstuhl-Rückhaltesysteme, Rollstuhlnutzer-Rückhaltesysteme, Schutzhelme",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__21a.html",
+      "slug": "21a-safety-belts"
+    },
+    "22": {
+      "title": "§ 22 Ladung",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__22.html",
+      "slug": "22-load"
+    },
+    "23": {
+      "title": "§ 23 Sonstige Pflichten von Fahrzeugführenden",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__23.html",
+      "slug": "23-driver-duties"
+    },
+    "24": {
+      "title": "§ 24 Besondere Fortbewegungsmittel",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__24.html",
+      "slug": "24-special-vehicles"
+    },
+    "25": {
+      "title": "§ 25 Fußgänger",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__25.html",
+      "slug": "25-pedestrians"
+    },
+    "26": {
+      "title": "§ 26 Fußgängerüberwege",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__26.html",
+      "slug": "26-pedestrian-crossings"
+    },
+    "27": {
+      "title": "§ 27 Verbände",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__27.html",
+      "slug": "27-convoys"
+    },
+    "28": {
+      "title": "§ 28 Tiere",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__28.html",
+      "slug": "28-animals"
+    },
+    "29": {
+      "title": "§ 29 Übermäßige Straßenbenutzung",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__29.html",
+      "slug": "29-excessive-use"
+    },
+    "30": {
+      "title": "§ 30 Umweltschutz, Sonn- und Feiertagsfahrverbot",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__30.html",
+      "slug": "30-environmental-protection"
+    },
+    "31": {
+      "title": "§ 31 Sport und Spiel",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__31.html",
+      "slug": "31-sports-games"
+    },
+    "32": {
+      "title": "§ 32 Verkehrshindernisse",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__32.html",
+      "slug": "32-obstacles"
+    },
+    "33": {
+      "title": "§ 33 Verkehrsbeeinträchtigungen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__33.html",
+      "slug": "33-traffic-disruptions"
+    },
+    "34": {
+      "title": "§ 34 Unfall",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__34.html",
+      "slug": "34-accident"
+    },
+    "35": {
+      "title": "§ 35 Sonderrechte",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__35.html",
+      "slug": "35-special-rights"
+    },
+    "36": {
+      "title": "§ 36 Zeichen und Weisungen der Polizeibeamten",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__36.html",
+      "slug": "36-police-signs"
+    },
+    "36a": {
+      "title": "§ 36a Weisungen und Anordnungen der Zollbediensteten",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__36a.html",
+      "slug": "36a-customs-orders"
+    },
+    "37": {
+      "title": "§ 37 Wechsellichtzeichen, Dauerlichtzeichen und Grünpfeil",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__37.html",
+      "slug": "37-traffic-lights"
+    },
+    "38": {
+      "title": "§ 38 Blaues Blinklicht und gelbes Blinklicht",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__38.html",
+      "slug": "38-flashing-lights"
+    },
+    "39": {
+      "title": "§ 39 Verkehrszeichen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__39.html",
+      "slug": "39-traffic-signs"
+    },
+    "40": {
+      "title": "§ 40 Gefahrzeichen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__40.html",
+      "slug": "40-warning-signs"
+    },
+    "41": {
+      "title": "§ 41 Vorschriftzeichen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__41.html",
+      "slug": "41-regulatory-signs"
+    },
+    "42": {
+      "title": "§ 42 Richtzeichen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__42.html",
+      "slug": "42-guidance-signs"
+    },
+    "43": {
+      "title": "§ 43 Verkehrseinrichtungen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__43.html",
+      "slug": "43-traffic-facilities"
+    },
+    "44": {
+      "title": "§ 44 Zuständigkeiten",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__44.html",
+      "slug": "44-responsibilities"
+    },
+    "44a": {
+      "title": "§ 44a (weggefallen)",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__44a.html",
+      "slug": "44a-repealed"
+    },
+    "45": {
+      "title": "§ 45 Verkehrszeichen und Verkehrseinrichtungen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__45.html",
+      "slug": "45-traffic-signs-facilities"
+    },
+    "46": {
+      "title": "§ 46 Ausnahmegenehmigung und Erlaubnis",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__46.html",
+      "slug": "46-exemptions"
+    },
+    "47": {
+      "title": "§ 47 Anhörung von Beteiligten",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__47.html",
+      "slug": "47-participant-hearing"
+    },
+    "48": {
+      "title": "§ 48 Grundregeln für die Benutzung der Straßen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__48.html",
+      "slug": "48-street-use-rules"
+    },
+    "49": {
+      "title": "§ 49 Ordnungswidrigkeiten",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__49.html",
+      "slug": "49-violations"
+    },
+    "50": {
+      "title": "§ 50 Verkehrsunterricht",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__50.html",
+      "slug": "50-traffic-education"
+    },
+    "51": {
+      "title": "§ 51 Übergangsrecht",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__51.html",
+      "slug": "51-transitional-law"
+    },
+    "51a": {
+      "title": "§ 51a Überleitungsvorschrift aus Anlaß der Verordnung zur Änderung der Straßenverkehrs-Ordnung vom 6. März 2013",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__51a.html",
+      "slug": "51a-transition-rule"
+    },
+    "52": {
+      "title": "§ 52 Ermächtigungen",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__52.html",
+      "slug": "52-authorizations"
+    },
+    "53": {
+      "title": "§ 53 Sondervorschriften für bestimmte Fahrzeugarten und Anhänger",
+      "url": "https://www.gesetze-im-internet.de/stvo_2013/__53.html",
+      "slug": "53-special-vehicles"
+    }
+  }
+  
