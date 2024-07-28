@@ -1,6 +1,7 @@
 {
   "label": "I. Общие правила дорожного движения",
   "link": {
-    "type": "generated-index"
+    "type": "generated-index",
+    "slug": "/category/general-traffic-rules"
   }
 }
