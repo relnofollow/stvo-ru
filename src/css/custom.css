@@ -28,3 +28,63 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.signs-table tr td:nth-child(2) {
+    text-align: center;
+}
+
+.signs-table h2 {
+    margin-bottom: 0;
+}
+
+@media (max-width: 768px) {
+    .signs-table tr {
+        display: flex;
+        flex-flow: column;
+    }
+
+    .signs-table tr td:first-child,
+    .signs-table tr td:empty {
+        display: none;
+    }
+
+    .signs-table tr td.section-reference,
+    .signs-table tr td[colspan] {
+        display: block;
+    }
+
+
+
+    .signs-table tr.section-header-row {
+        border: 0 none;
+        background-color: transparent;
+    }
+
+    .signs-table tr.section-header-row td {
+        border: 0 none;
+        padding: 0;
+    }
+
+    .signs-table tr:not(:first-child) {
+        margin-top: 2rem;
+    }
+
+    .signs-table thead {
+        display: none;
+    }
+}
+
+.signs-paired {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.flag-img {
+    height: 1.7rem;
+    border-radius: 4px
+}
+
+.text--no-wrap {
+    white-space: nowrap;
+}

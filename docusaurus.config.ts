@@ -4,11 +4,12 @@ import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
   title: 'Правила дорожного движения Германии',
-  tagline: 'StVO (Straßenverkehrs-Ordnung)',
+  tagline: 'StVO (Straßenverkehrs-Ordnung) на русском языке',
   favicon: 'img/favicon.ico',
+  trailingSlash: false,
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://stvo-ru-de.netlify.app',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -25,8 +26,8 @@ const config: Config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'ru',
+    locales: ['ru'],
   },
 
   presets: [
@@ -38,14 +39,7 @@ const config: Config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/relnofollow/stvo-ru/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -58,9 +52,9 @@ const config: Config = {
     // Replace with your project's social card
     image: 'img/docusaurus-social-card.jpg',
     navbar: {
-      title: 'StVO RU',
+      title: 'StVO Ru',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'StVO Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -70,12 +64,7 @@ const config: Config = {
           position: 'left',
           label: 'ПДД Германии',
         },
-        {to: '/blog', label: 'О проекте', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        {to: '/about', label: 'О проекте', position: 'left'},
         {
             href: 'https://www.gesetze-im-internet.de/stvo_2013/',
             label: 'StVO | Gesetze im Internet',
@@ -87,46 +76,46 @@ const config: Config = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'StVO на русском',
           items: [
             {
-              label: 'Tutorial',
-              to: '/docs/intro',
+              label: 'Главная страница',
+              to: '/',
+            },
+            {
+                label: 'О проекте',
+                to: '/about'
+            },
+            {
+                label: 'GitHub',
+                href: 'https://github.com/relnofollow/stvo-ru/',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Legal',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+              label: 'Impressum',
+              href: '/impressum',
             },
             {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Privacy Policy',
+              href: '/privacy-policy',
             },
           ],
         },
         {
-          title: 'More',
+          title: 'Контакты',
           items: [
             {
-              label: 'Blog',
-              to: '/blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              label: 'Форма обратной связи',
+              to: '/contact-us',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} StVO Ru`,
     },
     prism: {
       theme: prismThemes.github,

@@ -12,7 +12,7 @@ sidebar_label: Приложение 3. Регулирующие знаки
 
 Приложение к [§ 42 (2)](/docs/signs-structures/guidance-signs#2)
 
-<table>
+<table className="signs-table">
     <colgroup>
         <col />
         <col />
@@ -31,22 +31,22 @@ sidebar_label: Приложение 3. Регулирующие знаки
         </tr>
     </thead>
     <tbody>
-        <tr>
-            <td colspan="3"><span>Раздел 1&nbsp;Приоритетные знаки</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 1&nbsp;Приоритетные знаки</h2></td>
         </tr>
         <tr>
             <td>1</td>
-            <td style={{ textAlign:"center" }}> Знак 301<br /><img src="/img/signs/sign_301.jpg" /><br /> Главная дорога</td>
+            <td> Знак 301<br /><img src="/img/signs/sign_301.jpg" /><br /> Главная дорога</td>
             <td><span>Обязательство или запрет</span><br /> Этот знак указывает, что на следующем перекрестке или въезде имеется преимущество.</td>
         </tr>
         <tr>
             <td>2</td>
-            <td style={{ textAlign:"center" }}> Знак 306<br /><img src="/img/signs/sign_306.jpg" /><br /> Главная дорога</td>
+            <td> Знак 306<br /><img src="/img/signs/sign_306.jpg" /><br /> Главная дорога</td>
             <td><span>Обязательство или запрет</span><br /> Водитель транспортного средства не имеет права парковаться на проезжей части вне населенных пунктов на главных дорогах.<br /> Этот знак указывает на преимущество до следующего знака 205 «Уступите дорогу», 206 «Стоп. Уступите дорогу» или 307 «Конец главной дороги».</td>
         </tr>
         <tr>
             <td>2.1</td>
-            <td style={{ textAlign:"center" }}><img src="/img/signs/sign_306_1.jpg" /></td>
+            <td><img src="/img/signs/sign_306_1.jpg" /></td>
             <td>
                 <span>Обязательство или запрет</span>
                 <dl>
@@ -64,38 +64,38 @@ sidebar_label: Приложение 3. Регулирующие знаки
         </tr>
         <tr>
             <td>3</td>
-            <td style={{ textAlign:"center" }}> Знак 307<br /><img src="/img/signs/sign_307.jpg" /><br /> Конец главной дороги</td>
-            <td>&nbsp;</td>
+            <td> Знак 307<br /><img src="/img/signs/sign_307.jpg" /><br /> Конец главной дороги</td>
+            <td></td>
         </tr>
         <tr>
             <td>4</td>
-            <td style={{ textAlign:"center" }}> Знак 308<br /><img src="/img/signs/sign_308.jpg" /><br /> Приоритет перед встречным движением</td>
+            <td> Знак 308<br /><img src="/img/signs/sign_308.jpg" /><br /> Приоритет перед встречным движением</td>
             <td><span>Обязательство или запрет</span><br /> Водитель транспортного средства имеет приоритет перед встречным движением.</td>
         </tr>
-        <tr>
-            <td colspan="3"><span>Раздел 2&nbsp;Населенный пункт</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 2&nbsp;Населенный пункт</h2></td>
         </tr>
         <tr>
             <td>к 5<br /> и 6</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td><span>Пояснение</span><br /> С момента въезда в населенный пункт применяются правила, действующие в пределах или за пределами населенных пунктов.</td>
         </tr>
         <tr>
             <td>5</td>
-            <td style={{ textAlign:"center" }}> Знак 310<br /><img src="/img/signs/sign_310.jpg" /><br /> Знак начала населенного пункта</td>
+            <td> Знак 310<br /><img src="/img/signs/sign_310.jpg" /><br /> Знак начала населенного пункта</td>
             <td> Знак населенного пункта определяет:<br /> Здесь начинается закрытая населенная местность.</td>
         </tr>
         <tr>
             <td>6</td>
-            <td style={{ textAlign:"center" }}> Знак 311<br /><img src="/img/signs/sign_311.jpg" /><br /> Знак конца населенного пункта</td>
+            <td> Знак 311<br /><img src="/img/signs/sign_311.jpg" /><br /> Знак конца населенного пункта</td>
             <td> Знак населенного пункта определяет:<br /> Здесь заканчивается закрытая населенная местность.</td>
         </tr>
-        <tr>
-            <td colspan="3"><span>Раздел 3&nbsp;Парковка</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 3&nbsp;Парковка</h2></td>
         </tr>
         <tr>
             <td>7</td>
-            <td style={{ textAlign:"center" }}> Знак 314<br /><img src="/img/signs/sign_314.jpg" /><br /> Парковка</td>
+            <td> Знак 314<br /><img src="/img/signs/sign_314.jpg" /><br /> Парковка</td>
             <td>
                 <span>Разрешение или запрет</span>
                 <dl>
@@ -207,7 +207,7 @@ sidebar_label: Приложение 3. Регулирующие знаки
         </tr>
         <tr>
             <td>8</td>
-            <td style={{ textAlign:"center" }}>
+            <td>
                 Знак 314.1<br />
                 <img src="/img/signs/sign_314_1.jpg" /><br />
                 Начало зоны регулирования парковки
@@ -283,13 +283,13 @@ sidebar_label: Приложение 3. Регулирующие знаки
         </tr>
         <tr>
             <td>9</td>
-            <td style={{ textAlign:"center" }}>Знак 314.2<br /><img src="/img/signs/sign_314_2.jpg" /><br /> Конец зоны<br />
+            <td>Знак 314.2<br /><img src="/img/signs/sign_314_2.jpg" /><br /> Конец зоны<br />
                 регулирования парковки</td>
-            <td>&nbsp;</td>
+            <td></td>
         </tr>
         <tr>
             <td>10</td>
-            <td style={{ textAlign:"center" }}>Знак 315<br /><img src="/img/signs/sign_315.jpg" /><br /> Парковка на тротуарах</td>
+            <td>Знак 315<br /><img src="/img/signs/sign_315.jpg" /><br /> Парковка на тротуарах</td>
             <td>
                 <span>Разрешение или запрет</span>
                 <dl>
@@ -398,15 +398,15 @@ sidebar_label: Приложение 3. Регулирующие знаки
         </tr>
         <tr>
             <td>11</td>
-            <td style={{ textAlign:"center" }}>Знак 318<br /><img src="/img/signs/sign_318.jpg" /><br /> Парковочные часы</td>
+            <td>Знак 318<br /><img src="/img/signs/sign_318.jpg" /><br /> Парковочные часы</td>
             <td><span>Указание или запрет</span><br />Если время парковки для электромобилей ограничено, необходимо предъявить доказательство, положив парковочные часы.</td>
         </tr>
-        <tr>
-            <td colspan="3"><span>Раздел 4&nbsp;Зона с успокоенным движением</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 4&nbsp;Зона с ограниченным движением</h2></td>
         </tr>
         <tr>
             <td>12</td>
-            <td style={{ textAlign:"center" }}>Знак 325.1<br /><img src="/img/signs/sign_325.1.jpg" /><br /> Начало зоны с<br /> успокоенным движением</td>
+            <td>Знак 325.1<br /><img src="/img/signs/sign_325.1.jpg" /><br /> Начало зоны с<br /> ограниченным движением</td>
             <td>
                 <span>Указание или запрет</span>
                 <dl>
@@ -424,7 +424,7 @@ sidebar_label: Приложение 3. Регулирующие знаки
                     </dd>
                     <dt>4.</dt>
                     <dd>
-                        <div>Водитель транспортного средства не должен парковаться за пределами обозначенных зон, за исключением случаев посадки и высадки пассажиров, а также погрузки и разгрузки.</div>
+                        <div>Водитель транспортного средства не должен парковаться за пределами специально обозначенных зон, за исключением случаев посадки и высадки пассажиров, а также погрузки и разгрузки.</div>
                     </dd>
                     <dt>5.</dt>
                     <dd>
@@ -435,15 +435,15 @@ sidebar_label: Приложение 3. Регулирующие знаки
         </tr>
         <tr>
             <td>13</td>
-            <td style={{ textAlign:"center" }}>Знак 325.2<br /><img src="/img/signs/sign_325.2.jpg" /><br /> Конец зоны с<br /> успокоенным движением</td>
+            <td>Знак 325.2<br /><img src="/img/signs/sign_325.2.jpg" /><br /> Конец зоны с<br /> успокоенным движением</td>
             <td><span>Объяснение</span><br />При выезде необходимо соблюдать § 10.</td>
         </tr>
-        <tr>
-            <td colspan="3"><span>Раздел 5&nbsp;Туннель</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 5&nbsp;Туннель</h2></td>
         </tr>
         <tr>
             <td>14</td>
-            <td style={{ textAlign:"center" }}>Знак 327<br /><img src="/img/signs/sign_327.jpg" /><br /> Туннель</td>
+            <td>Знак 327<br /><img src="/img/signs/sign_327.jpg" /><br /> Туннель</td>
             <td>
                 <span>Указания или запреты</span>
                 <dl>
@@ -458,53 +458,53 @@ sidebar_label: Приложение 3. Регулирующие знаки
                 </dl>
             </td>
         </tr>
-        <tr>
-            <td colspan="3"><span>Раздел 6&nbsp;Аварийные и парковочные бухты</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 6&nbsp;Аварийные и парковочные бухты</h2></td>
         </tr>
         <tr>
             <td>15</td>
-            <td style={{ textAlign:"center" }}>Знак 328<br /><img src="/img/signs/sign_328.jpg" /><br /> Аварийные и парковочные бухты</td>
+            <td>Знак 328<br /><img src="/img/signs/sign_328.jpg" /><br /> Аварийные и парковочные бухты</td>
             <td><span>Указание или запрет</span><br />Водитель транспортного средства может остановиться в аварийной или парковочной бухте только в случае аварии или поломки.</td>
         </tr>
-        <tr>
-            <td colspan="3"><span>Раздел 7&nbsp;Автомагистрали и скоростные дороги</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 7&nbsp;Автомагистрали и скоростные дороги</h2></td>
         </tr>
         <tr>
             <td>16</td>
-            <td style={{ textAlign:"center" }}>Знак 330.1<br /><img src="/img/signs/sign_330.1.jpg" /><br /> Автомагистраль</td>
+            <td>Знак 330.1<br /><img src="/img/signs/sign_330.1.jpg" /><br /> Автомагистраль</td>
             <td><span>Объяснение</span><br />С этого знака действуют правила движения на автомагистралях.</td>
         </tr>
         <tr>
             <td>17</td>
-            <td style={{ textAlign:"center" }}>Знак 330.2<br /><img src="/img/signs/sign_330.2.jpg" /><br /> Конец автомагистрали</td>
-            <td>&nbsp;</td>
+            <td>Знак 330.2<br /><img src="/img/signs/sign_330.2.jpg" /><br /> Конец автомагистрали</td>
+            <td></td>
         </tr>
         <tr>
             <td>18</td>
-            <td style={{ textAlign:"center" }}>Знак 331.1<br /><img src="/img/signs/sign_331.1.jpg" /><br /> Скоростная дорога</td>
+            <td>Знак 331.1<br /><img src="/img/signs/sign_331.1.jpg" /><br /> Скоростная дорога</td>
             <td><span>Объяснение</span><br />С этого знака действуют правила движения на скоростных дорогах.</td>
         </tr>
         <tr>
             <td>19</td>
-            <td style={{ textAlign:"center" }}>Знак 331.2<br /><img src="/img/signs/sign_331.2.jpg" /><br /> Конец скоростной дороги</td>
-            <td>&nbsp;</td>
+            <td>Знак 331.2<br /><img src="/img/signs/sign_331.2.jpg" /><br /> Конец скоростной дороги</td>
+            <td></td>
         </tr>
         <tr>
             <td>20</td>
-            <td style={{ textAlign:"center" }}>Знак 333<br /><img src="/img/signs/sign_333.jpg" /><br /> Съезд с автомагистрали</td>
+            <td>Знак 333<br /><img src="/img/signs/sign_333.jpg" /><br /> Съезд с автомагистрали</td>
             <td><span>Объяснение</span><br />На скоростных дорогах или автомагистралях соответствующий знак с черным текстом на желтом фоне указывает на съезд. Знак может быть выполнен и на белом фоне.</td>
         </tr>
         <tr>
             <td>21</td>
-            <td style={{ textAlign:"center" }}>Знак 450<br /><img src="/img/signs/sign_450.jpg" /><br /> Указатель расстояния</td>
+            <td>Знак 450<br /><img src="/img/signs/sign_450.jpg" /><br /> Указатель расстояния</td>
             <td><span>Объяснение</span><br />Знак устанавливается за 300 м, 200 м (как на изображении) и 100 м до развязки автомагистрали (автомобильной развязки, автодорожного пересечения или автодорожного треугольника). Он также устанавливается перед платной зоной отдыха. Перед узлом на 300-метровом указателе может быть указано номер узла.</td>
         </tr>
-        <tr>
-            <td colspan="3"><span>Раздел 8&nbsp;Разметка</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 8&nbsp;Разметка</h2></td>
         </tr>
         <tr>
             <td>22</td>
-            <td style={{ textAlign:"center" }}>Знак 340<br /><img src="/img/signs/sign_340.jpg" /><br /> Ведущая линия</td>
+            <td>Знак 340<br /><img src="/img/signs/sign_340.jpg" /><br /> Ведущая линия</td>
             <td>
                 <span>Указание или запрет</span>
                 <dl>
@@ -526,7 +526,7 @@ sidebar_label: Приложение 3. Регулирующие знаки
         </tr>
         <tr>
             <td>23</td>
-            <td style={{ textAlign:"center" }}>Знак 341<br /><img src="/img/signs/sign_341.jpg" /><br /> Линия ожидания</td>
+            <td>Знак 341<br /><img src="/img/signs/sign_341.jpg" /><br /> Линия ожидания</td>
             <td>
                 <span>Объяснение</span>
                 <br />Линия ожидания рекомендует остановиться в этом месте.
@@ -534,48 +534,48 @@ sidebar_label: Приложение 3. Регулирующие знаки
         </tr>
         <tr>
             <td>23.1</td>
-            <td style={{ textAlign:"center" }}>Знак 342<br /><img src="/img/signs/sign_342.jpg" /><br />Акулий зуб</td>
+            <td>Знак 342<br /><img src="/img/signs/sign_342.jpg" /><br />Акулий зуб</td>
             <td>
                 <span>Объяснение</span>
                 <br />Разметка подчеркивает обязанность уступать дорогу в результате действующего правила "право-перед-левым" за пределами федеральных, земельных и окружных дорог, а также других главных дорог, и преимущество велосипедистов на пересечениях или съездах с веломагистралей, установленное знаками 205 или 206. В случае этой приоритетности велосипедистов разметка должна быть нанесена с обеих сторон вдоль краев проезжей части веломагистрали с острием в сторону обязанных уступить дорогу.
             </td>
         </tr>
-        <tr>
-            <td colspan="3"><span>Раздел 9&nbsp;Указания</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 9&nbsp;Указания</h2></td>
         </tr>
         <tr>
             <td>24</td>
-            <td style={{ textAlign:"center" }}>Знак 350<br /><img src="/img/signs/sign_350.jpg" /><br /> Пешеходный переход</td>
-            <td>&nbsp;</td>
+            <td>Знак 350<br /><img src="/img/signs/sign_350.jpg" /><br /> Пешеходный переход</td>
+            <td></td>
         </tr>
         <tr>
             <td>24.1</td>
-            <td style={{ textAlign:"center" }}>Знак 350.1<br /><img src="/img/signs/sign_350.1.jpg" /><br />Веломагистраль</td>
+            <td>Знак 350.1<br /><img src="/img/signs/sign_350.1.jpg" /><br />Веломагистраль</td>
             <td><span>Объяснение</span><br />Знак устанавливается на веломагистралях. Он служит для информирования о начале веломагистралей и их направлении на перекрестках.</td>
         </tr>
         <tr>
             <td>24.2</td>
-            <td style={{ textAlign:"center" }}>Знак 350.2<br /><img src="/img/signs/sign_350.2.jpg" /><br />Конец веломагистрали</td>
-            <td>&nbsp;</td>
+            <td>Знак 350.2<br /><img src="/img/signs/sign_350.2.jpg" /><br />Конец веломагистрали</td>
+            <td></td>
         </tr>
         <tr>
             <td>25</td>
-            <td style={{ textAlign:"center" }}>Знак 354<br /><img src="/img/signs/sign_354.jpg" /><br /> Охраняемая водная зона</td>
-            <td>&nbsp;</td>
+            <td>Знак 354<br /><img src="/img/signs/sign_354.jpg" /><br /> Охраняемая водная зона</td>
+            <td></td>
         </tr>
         <tr>
             <td>26</td>
-            <td style={{ textAlign:"center" }}>Знак 356<br /><img src="/img/signs/sign_356.jpg" /><br /> Помощник по дорожному движению</td>
-            <td>&nbsp;</td>
+            <td>Знак 356<br /><img src="/img/signs/sign_356.jpg" /><br /> Помощник по дорожному движению</td>
+            <td></td>
         </tr>
         <tr>
             <td>27</td>
-            <td style={{ textAlign:"center" }}>Знак 357<br /><img src="/img/signs/sign_357.jpg" /><br /> Тупик</td>
+            <td>Знак 357<br /><img src="/img/signs/sign_357.jpg" /><br /> Тупик</td>
             <td><span>Пояснение</span><br /> В верхней части дорожного знака может быть указана проходимость тупика для велосипедного и/или пешеходного движения с помощью пиктограмм.</td>
         </tr>
         <tr>
             <td>по 28<br /> и 29</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td>
                 <span>Пояснение</span>
                 <dl>
@@ -592,205 +592,205 @@ sidebar_label: Приложение 3. Регулирующие знаки
         </tr>
         <tr>
             <td>28</td>
-            <td style={{ textAlign:"center" }}>Знак 358<br /><img src="/img/signs/sign_358.jpg" /><br /> Первая помощь</td>
-            <td>&nbsp;</td>
+            <td>Знак 358<br /><img src="/img/signs/sign_358.jpg" /><br /> Первая помощь</td>
+            <td></td>
         </tr>
         <tr>
             <td>29</td>
-            <td style={{ textAlign:"center" }}>Знак 363<br /><img src="/img/signs/sign_363.jpg" /><br /> Полиция</td>
-            <td>&nbsp;</td>
+            <td>Знак 363<br /><img src="/img/signs/sign_363.jpg" /><br /> Полиция</td>
+            <td></td>
         </tr>
         <tr>
             <td>30</td>
-            <td style={{ textAlign:"center" }}>Знак 385<br /><img src="/img/signs/sign_385.jpg" /><br /> Указатель населённого пункта</td>
-            <td>&nbsp;</td>
+            <td>Знак 385<br /><img src="/img/signs/sign_385.jpg" /><br /> Указатель населённого пункта</td>
+            <td></td>
         </tr>
         <tr>
             <td>по 31<br /> и 32</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td><span>Пояснение</span><br /> Эти знаки устанавливаются за пределами автострад. Они служат для указания туристически значимых объектов и обозначения туристических маршрутов. Также могут использоваться как указатели.</td>
         </tr>
         <tr>
             <td>31</td>
-            <td style={{ textAlign:"center" }}>Знак 386.1<br /><img src="/img/signs/sign_386.1.jpg" /><br /> Туристический указатель</td>
-            <td>&nbsp;</td>
+            <td>Знак 386.1<br /><img src="/img/signs/sign_386.1.jpg" /><br /> Туристический указатель</td>
+            <td></td>
         </tr>
         <tr>
             <td>32</td>
-            <td style={{ textAlign:"center" }}>Знак 386.2<br /><img src="/img/signs/sign_386.2.jpg" /><br /> Туристический маршрут</td>
-            <td>&nbsp;</td>
+            <td>Знак 386.2<br /><img src="/img/signs/sign_386.2.jpg" /><br /> Туристический маршрут</td>
+            <td></td>
         </tr>
         <tr>
             <td>33</td>
-            <td style={{ textAlign:"center" }}>Знак 386.3<br /><img src="/img/signs/sign_386.3.jpg" /><br /> Туристическая информационная табличка</td>
+            <td>Знак 386.3<br /><img src="/img/signs/sign_386.3.jpg" /><br /> Туристическая информационная табличка</td>
             <td><span>Пояснение</span><br /> Этот знак установлен на автостраде и служит для информирования о туристически значимых объектах.</td>
         </tr>
         <tr>
             <td>34</td>
-            <td style={{ textAlign:"center" }}>Знак 390<br /><img src="/img/signs/sign_390.jpg" /><br /> Обязанность уплаты дорожного сбора по<br /> Закону о дорожных сборах</td>
-            <td>&nbsp;</td>
+            <td>Знак 390<br /><img src="/img/signs/sign_390.jpg" /><br /> Обязанность уплаты дорожного сбора по<br /> Закону о дорожных сборах</td>
+            <td></td>
         </tr>
         <tr>
             <td>35</td>
-            <td style={{ textAlign:"center" }}>Знак 391<br /><img src="/img/signs/sign_391.jpg" /><br /> Платный участок</td>
-            <td>&nbsp;</td>
+            <td>Знак 391<br /><img src="/img/signs/sign_391.jpg" /><br /> Платный участок</td>
+            <td></td>
         </tr>
         <tr>
             <td>36</td>
-            <td style={{ textAlign:"center" }}>Знак 392<br /><img src="/img/signs/sign_392.jpg" /><br /> Таможня</td>
-            <td>&nbsp;</td>
+            <td>Знак 392<br /><img src="/img/signs/sign_392.jpg" /><br /> Таможня</td>
+            <td></td>
         </tr>
         <tr>
             <td>37</td>
-            <td style={{ textAlign:"center" }}>Знак 393<br /><img src="/img/signs/sign_393.jpg" /><br /> Информационная табличка на<br /> пограничных переходах</td>
-            <td>&nbsp;</td>
+            <td>Знак 393<br /><img src="/img/signs/sign_393.jpg" /><br /> Информационная табличка на<br /> пограничных переходах</td>
+            <td></td>
         </tr>
         <tr>
             <td>38</td>
-            <td style={{ textAlign:"center" }}>Знак 394<br /><img src="/img/signs/sign_394.jpg" /><br /> Фонарь</td>
+            <td>Знак 394<br /><img src="/img/signs/sign_394.jpg" /><br /> Фонарь</td>
             <td><span>Пояснение</span><br /> Этот знак указывает на фонари, которые не горят всю ночь, в пределах населённых пунктов. В красном поле может быть указано, когда фонарь гаснет.</td>
         </tr>
-        <tr>
-            <td colspan="3"><span>Раздел 10&nbsp;Указатели</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 10&nbsp;Указатели</h2></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td><span>1. Номерные знаки</span></td>
         </tr>
         <tr>
             <td>39</td>
-            <td style={{ textAlign:"center" }}>Знак 401<br /><img src="/img/signs/sign_401.jpg" /><br /> Федеральные дороги</td>
-            <td>&nbsp;</td>
+            <td>Знак 401<br /><img src="/img/signs/sign_401.jpg" /><br /> Федеральные дороги</td>
+            <td></td>
         </tr>
         <tr>
             <td>40</td>
-            <td style={{ textAlign:"center" }}>Знак 405<br /><img src="/img/signs/sign_405.jpg" /><br /> Автострады</td>
-            <td>&nbsp;</td>
+            <td>Знак 405<br /><img src="/img/signs/sign_405.jpg" /><br /> Автострады</td>
+            <td></td>
         </tr>
         <tr>
             <td>41</td>
-            <td style={{ textAlign:"center" }}>Знак 406<br /><img src="/img/signs/sign_406.jpg" /><br /> Узловые точки автострад</td>
+            <td>Знак 406<br /><img src="/img/signs/sign_406.jpg" /><br /> Узловые точки автострад</td>
             <td><span>Пояснение</span><br /> Узловые точки автострад (выезды, перекрёстки и треугольники автострад) обозначены цифрами.</td>
         </tr>
         <tr>
             <td>42</td>
-            <td style={{ textAlign:"center" }}>Знак 410<br /><img src="/img/signs/sign_410.jpg" /><br /> Европейские дороги</td>
-            <td>&nbsp;</td>
+            <td>Знак 410<br /><img src="/img/signs/sign_410.jpg" /><br /> Европейские дороги</td>
+            <td></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td><span>2. Указатели за пределами автострад</span></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td>a) Предварительные указатели</td>
         </tr>
         <tr>
             <td>43</td>
-            <td style={{ textAlign:"center" }}>Знак 438<br /><img src="/img/signs/sign_438.jpg" /></td>
-            <td>&nbsp;</td>
+            <td>Знак 438<br /><img src="/img/signs/sign_438.jpg" /></td>
+            <td></td>
         </tr>
         <tr>
             <td>44</td>
-            <td style={{ textAlign:"center" }}>Знак 439<br /><img src="/img/signs/sign_439.jpg" /></td>
-            <td>&nbsp;</td>
+            <td>Знак 439<br /><img src="/img/signs/sign_439.jpg" /></td>
+            <td></td>
         </tr>
         <tr>
             <td>45</td>
-            <td style={{ textAlign:"center" }}>Знак 440<br /><img src="/img/signs/sign_440.jpg" /></td>
-            <td>&nbsp;</td>
+            <td>Знак 440<br /><img src="/img/signs/sign_440.jpg" /></td>
+            <td></td>
         </tr>
         <tr>
             <td>46</td>
-            <td style={{ textAlign:"center" }}>Знак 441<br /><img src="/img/signs/sign_441.jpg" /></td>
-            <td>&nbsp;</td>
+            <td>Знак 441<br /><img src="/img/signs/sign_441.jpg" /></td>
+            <td></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td>b) Стрелочные указатели</td>
         </tr>
         <tr>
             <td>по 47<br /> до 49</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td><span>Пояснение</span><br /> Дополнительный знак «Боковая дорога» или добавление «Боковая дорога» на указателе обозначает связь с менее значимой дорогой.</td>
         </tr>
         <tr>
             <td>47</td>
-            <td style={{ textAlign:"center" }}>Знак 415<br /><img src="/img/signs/sign_415.jpg" /></td>
+            <td>Знак 415<br /><img src="/img/signs/sign_415.jpg" /></td>
             <td><span>Пояснение</span><br /> Стрелочный указатель на федеральных дорогах</td>
         </tr>
         <tr>
             <td>48</td>
-            <td style={{ textAlign:"center" }}>Знак 418<br /><img src="/img/signs/sign_418.jpg" /></td>
+            <td>Знак 418<br /><img src="/img/signs/sign_418.jpg" /></td>
             <td><span>Пояснение</span><br /> Стрелочный указатель на прочих дорогах</td>
         </tr>
         <tr>
             <td>49</td>
-            <td style={{ textAlign:"center" }}>Знак 419<br /><img src="/img/signs/sign_419.jpg" /></td>
+            <td>Знак 419<br /><img src="/img/signs/sign_419.jpg" /></td>
             <td><span>Пояснение</span><br /> Стрелочный указатель на менее важные дороги</td>
         </tr>
         <tr>
             <td>50</td>
-            <td style={{ textAlign:"center" }}>Знак 430<br /><img src="/img/signs/sign_430.jpg" /></td>
+            <td>Знак 430<br /><img src="/img/signs/sign_430.jpg" /></td>
             <td><span>Пояснение</span><br /> Стрелочный указатель к автостраде</td>
         </tr>
         <tr>
             <td>51</td>
-            <td style={{ textAlign:"center" }}>Знак 432<br /><img src="/img/signs/sign_432.jpg" /></td>
+            <td>Знак 432<br /><img src="/img/signs/sign_432.jpg" /></td>
             <td><span>Пояснение</span><br /> Стрелочный указатель к объектам с высоким транспортным значением.</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td>c) Табличные указатели</td>
         </tr>
         <tr>
             <td>52</td>
-            <td style={{ textAlign:"center" }}>Знак 434<br /><img src="/img/signs/sign_434.jpg" /></td>
+            <td>Знак 434<br /><img src="/img/signs/sign_434.jpg" /></td>
             <td><span>Пояснение</span><br /> Табличные указатели могут также быть представлены на одной табличке. Указания по направлениям могут быть также отображены на отдельных табличках.</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td>d) Указатель выезда</td>
         </tr>
         <tr>
             <td>53</td>
-            <td style={{ textAlign:"center" }}>Знак 332.1<br /><img src="/img/signs/sign_332.1.jpg" /></td>
+            <td>Знак 332.1<br /><img src="/img/signs/sign_332.1.jpg" /></td>
             <td><span>Пояснение</span><br /> Выезд с автомобильной дороги или дороги, аналогичной автостраде. Знак может быть выполнен с белым фоном в пределах населённых пунктов.</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td>e) Указатели улиц</td>
         </tr>
         <tr>
             <td>54</td>
-            <td style={{ textAlign:"center" }}>Знак 437<br /><img src="/img/signs/sign_437.jpg" /></td>
+            <td>Знак 437<br /><img src="/img/signs/sign_437.jpg" /></td>
             <td><span>Пояснение</span><br /> Знак может иметь белый текст на тёмном фоне или чёрный текст на светлом фоне. Также может быть размещён на строительных конструкциях.</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td><span>3. Указатели на автострадах</span></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td>a) Аннонсирующие таблички</td>
         </tr>
         <tr>
             <td>по 55 и 58</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td><span>Пояснение</span><br /> Номер (знак 406) указывает последовательный номер выездов с автострады, перекрёстков и треугольников автострад. Это служит для улучшения ориентации.</td>
         </tr>
         <tr>
             <td>55</td>
-            <td style={{ textAlign:"center" }}>Знак 448<br /><img src="/img/signs/sign_448.jpg" /></td>
+            <td>Знак 448<br /><img src="/img/signs/sign_448.jpg" /></td>
             <td>
                 <span>Объяснение</span><br /> Этот знак указывает на выезд с автодороги, на развязку или треугольник
                 на автодороге. Включает знак 406.
@@ -798,14 +798,14 @@ sidebar_label: Приложение 3. Регулирующие знаки
         </tr>
         <tr>
             <td>56</td>
-            <td style={{ textAlign:"center" }}><img src="/img/signs/sign_56.jpg" /></td>
+            <td><img src="/img/signs/sign_56.jpg" /></td>
             <td>
                 <span>Объяснение</span><br /> Этот знак указывает на выезд.
             </td>
         </tr>
         <tr>
             <td>57</td>
-            <td style={{ textAlign:"center" }}><img src="/img/signs/sign_57.jpg" /></td>
+            <td><img src="/img/signs/sign_57.jpg" /></td>
             <td>
                 <span>Объяснение</span>
                 <br /> Этот знак указывает на развязку или треугольник на автодороге; также указывает
@@ -814,7 +814,7 @@ sidebar_label: Приложение 3. Регулирующие знаки
         </tr>
         <tr>
             <td>58</td>
-            <td style={{ textAlign:"center" }}>Знак 448.1<br /><img src="/img/signs/sign_448.1.jpg" /></td>
+            <td>Знак 448.1<br /><img src="/img/signs/sign_448.1.jpg" /></td>
             <td>
                 <span>Объяснение</span>
                 <dl>
@@ -833,204 +833,204 @@ sidebar_label: Приложение 3. Регулирующие знаки
             </td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td>b) Предупредительные знаки</td>
         </tr>
         <tr>
             <td>59</td>
-            <td style={{ textAlign:"center" }}>Знак 449<br /><img src="/img/signs/sign_449.jpg" /></td>
-            <td>&nbsp;</td>
+            <td>Знак 449<br /><img src="/img/signs/sign_449.jpg" /></td>
+            <td></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td>c) Таблица выезда</td>
         </tr>
         <tr>
             <td>60</td>
-            <td style={{ textAlign:"center" }}>Знак 332<br /><img src="/img/signs/sign_332.jpg" /></td>
-            <td>&nbsp;</td>
+            <td>Знак 332<br /><img src="/img/signs/sign_332.jpg" /></td>
+            <td></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td>d) Таблица расстояний</td>
         </tr>
         <tr>
             <td>61</td>
-            <td style={{ textAlign:"center" }}>Знак 453<br /><img src="/img/signs/sign_453.jpg" /></td>
+            <td>Знак 453<br /><img src="/img/signs/sign_453.jpg" /></td>
             <td><span>Объяснение</span><br /> Таблица расстояний указывает дальние цели и расстояние до соответствующего
                 центра населенного пункта. Цели, которые можно достичь через другую автодорогу, указываются ниже горизонтальной линии.</td>
         </tr>
-        <tr>
-            <td colspan="3"><span>Раздел 11&nbsp;Оповещение о desviación</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 11&nbsp;Указатели объездов</h2></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td><span>1. Объезд за пределами автодорог</span></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td>a) Объезды для определенных типов транспорта</td>
         </tr>
         <tr>
             <td>62</td>
-            <td style={{ textAlign:"center" }}>Знак 442<br /><img src="/img/signs/sign_442.jpg" /><br /> Предупредительный знак</td>
+            <td>Знак 442<br /><img src="/img/signs/sign_442.jpg" /><br /> Предупредительный знак</td>
             <td><span>Объяснение</span><br /> Предупредительный знак для определенных типов транспорта</td>
         </tr>
         <tr>
             <td>63</td>
-            <td style={{ textAlign:"center" }}>Знак 421<br /><img src="/img/signs/sign_421.jpg" /></td>
+            <td>Знак 421<br /><img src="/img/signs/sign_421.jpg" /></td>
             <td><span>Объяснение</span><br /> Стрелочный указатель для определенных типов транспорта</td>
         </tr>
         <tr>
             <td>64</td>
-            <td style={{ textAlign:"center" }}>Знак 422<br /><img src="/img/signs/sign_422.jpg" /></td>
+            <td>Знак 422<br /><img src="/img/signs/sign_422.jpg" /></td>
             <td><span>Объяснение</span><br /> Указатель для определенных типов транспорта</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td>b) Временные объезды (например, в результате строительных работ)</td>
         </tr>
         <tr>
             <td>65</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td><span>Объяснение</span><br /> Маршрут объезда может быть обозначен следующими знаками:</td>
         </tr>
         <tr>
             <td>66</td>
-            <td style={{ textAlign:"center" }}>Знак 454<br /><img src="/img/signs/sign_454.jpg" /></td>
+            <td>Знак 454<br /><img src="/img/signs/sign_454.jpg" /></td>
             <td><span>Объяснение</span><br /> Указатель маршрута объезда или</td>
         </tr>
         <tr>
             <td>67</td>
-            <td style={{ textAlign:"center" }}>Знак 455.1<br /><img src="/img/signs/sign_455.1.jpg" /></td>
+            <td>Знак 455.1<br /><img src="/img/signs/sign_455.1.jpg" /></td>
             <td><span>Объяснение</span><br /> Продолжение объезда</td>
         </tr>
         <tr>
             <td>к 66<br /> и 67</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td><span>Объяснение</span><br /> Знаки 454 и 455.1 могут быть дополнены указанием цели на знаке над
                 знаками. Если объезд касается только определенных типов транспорта, они указываются на дополнительном
                 знаке над знаком.</td>
         </tr>
         <tr>
             <td>68</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td><span>Объяснение</span><br /> Временный объезд может быть объявлен знаком 455.1 или</td>
         </tr>
         <tr>
             <td>69</td>
-            <td style={{ textAlign:"center" }}>Знак 457.1<br /><img src="/img/signs/sign_457.1.jpg" /></td>
+            <td>Знак 457.1<br /><img src="/img/signs/sign_457.1.jpg" /></td>
             <td><span>Объяснение</span><br /> Оповещение о объезде</td>
         </tr>
         <tr>
             <td>70</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td><span>Объяснение</span><br /> однако только с указанием расстояния на дополнительном знаке и при необходимости с
                 указанием цели на дополнительном знаке над знаком. Если оповещение касается только определенных типов
                 транспорта, они указываются на дополнительном знаке над знаком.</td>
         </tr>
         <tr>
             <td>71</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td><span>Объяснение</span><br /> Оповещение также может быть сделано с помощью</td>
         </tr>
         <tr>
             <td>72</td>
-            <td style={{ textAlign:"center" }}>Знак 458<br /><img src="/img/signs/sign_458.jpg" /></td>
+            <td>Знак 458<br /><img src="/img/signs/sign_458.jpg" /></td>
             <td><span>Объяснение</span><br /> схемы</td>
         </tr>
         <tr>
             <td>73</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td><span>Объяснение</span><br /> Конец объезда может быть обозначен следующими знаками:</td>
         </tr>
         <tr>
             <td>74</td>
-            <td style={{ textAlign:"center" }}>Знак 457.2<br /><img src="/img/signs/sign_457.2.jpg" /></td>
+            <td>Знак 457.2<br /><img src="/img/signs/sign_457.2.jpg" /></td>
             <td><span>Объяснение</span><br /> Конец объезда или</td>
         </tr>
         <tr>
             <td>75</td>
-            <td style={{ textAlign:"center" }}>Знак 455.2<br /><img src="/img/signs/sign_455.2.jpg" /></td>
+            <td>Знак 455.2<br /><img src="/img/signs/sign_455.2.jpg" /></td>
             <td><span>Объяснение</span><br /> Конец объезда</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td><span>2. Объезд по мере необходимости для автодорожного движения</span></td>
         </tr>
         <tr>
             <td>76</td>
-            <td style={{ textAlign:"center" }}>Знак 460<br /><img src="/img/signs/sign_460.jpg" /><br /> Объезд по мере необходимости</td>
+            <td>Знак 460<br /><img src="/img/signs/sign_460.jpg" /><br /> Объезд по мере необходимости</td>
             <td><span>Объяснение</span><br /> Этот знак указывает на альтернативный маршрут в дорожной сети на уровне ниже
                 между съездами с автодороги.</td>
         </tr>
         <tr>
             <td>77</td>
-            <td style={{ textAlign:"center" }}>Знак 466<br /><img src="/img/signs/sign_466.jpg" /><br /> Продолжение объезда по мере необходимости</td>
+            <td>Знак 466<br /><img src="/img/signs/sign_466.jpg" /><br /> Продолжение объезда по мере необходимости</td>
             <td><span>Объяснение</span><br /> Если объезжаемый транспорт не может быть возвращен на автодорогу на
                 съезде, предусмотренном знаком 460, этот знак указывает на продолжение объезда по следующему маршруту по мере необходимости.</td>
         </tr>
-        <tr>
-            <td colspan="3"><span>Раздел 12&nbsp;Иная организация дорожного движения</span></td>
+        <tr className="section-header-row">
+            <td colSpan="3"><h2>Раздел 12&nbsp;Иная организация дорожного движения</h2></td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td><span>1. Указатель обхода</span></td>
         </tr>
         <tr>
             <td>78</td>
-            <td style={{ textAlign:"center" }}>Знак 467.1<br /><img src="/img/signs/sign_467.1.jpg" /><br /> Указатель обхода</td>
+            <td>Знак 467.1<br /><img src="/img/signs/sign_467.1.jpg" /><br /> Указатель обхода</td>
             <td><span>Объяснение</span><br /> Этот знак указывает альтернативные маршруты на автодорогах, использование которых
                 рекомендуется в случае необходимости (рекомендация маршрута).</td>
         </tr>
         <tr>
             <td>79</td>
-            <td style={{ textAlign:"center" }}>Знак 467.2<br /><img src="/img/signs/sign_467.2.jpg" /></td>
+            <td>Знак 467.2<br /><img src="/img/signs/sign_467.2.jpg" /></td>
             <td><span>Объяснение</span><br /> Этот знак указывает на конец рекомендации маршрута.</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td><span>2. Таблицы организации дорожного движения</span></td>
         </tr>
         <tr>
             <td>80</td>
-            <td>&nbsp;</td>
+            <td></td>
             <td><span>Объяснение</span><br /> Таблицы организации дорожного движения показывают направление и количество полос
                 движения, например:</td>
         </tr>
         <tr>
             <td>81</td>
-            <td style={{ textAlign:"center" }}>Знак 501<br /><img src="/img/signs/sign_501.jpg" /><br /> Таблица перехода</td>
+            <td>Знак 501<br /><img src="/img/signs/sign_501.jpg" /><br /> Таблица перехода</td>
             <td><span>Объяснение</span><br /> Этот знак предупреждает о переходе движения на встречную полосу.</td>
         </tr>
         <tr>
             <td>82</td>
-            <td style={{ textAlign:"center" }}>Знак 531<br /><img src="/img/signs/sign_531.jpg" /><br /> Таблица сужения</td>
-            <td>&nbsp;</td>
+            <td>Знак 531<br /><img src="/img/signs/sign_531.jpg" /><br /> Таблица сужения</td>
+            <td></td>
         </tr>
         <tr>
             <td>82.1</td>
-            <td style={{ textAlign:"center" }}><img src="/img/signs/sign_531.1.jpg" /></td>
+            <td><img src="/img/signs/sign_531.1.jpg" /></td>
             <td><span>Объяснение</span><br /> На таблицах сужения указывается место, где должен происходить переход полос по
                 принципу «молнии» (§ 7 абзац 4).</td>
         </tr>
         <tr>
-            <td>&nbsp;</td>
-            <td>&nbsp;</td>
+            <td></td>
+            <td></td>
             <td><span>3. Обход блока</span></td>
         </tr>
         <tr>
             <td>83</td>
-            <td style={{ textAlign:"center" }}>Знак 590<br /><img src="/img/signs/sign_590.jpg" /><br /> Обход блока</td>
+            <td>Знак 590<br /><img src="/img/signs/sign_590.jpg" /><br /> Обход блока</td>
             <td>
                 <span>Объяснение</span>
                 <br /> Этот знак указывает на организацию дорожного движения, заданную знаками

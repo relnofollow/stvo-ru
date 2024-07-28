@@ -10,32 +10,31 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Перевод StVO',
+    Svg: require('@site/static/img/gesetze-im-internet.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Оригинал правил взят на сайте <a href="https://www.gesetze-im-internet.de/stvo_2013/" style={{ whiteSpace: 'nowrap' }}>www.gesetze-im-internet.de</a>.<br />
+        Дата перевода: 17.07.2024.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Машинный перевод',
+    Svg: require('@site/static/img/deepl-logo.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Основа перевода выполнена с помощью сервиса <a href="https://www.deepl.com/">DeepL</a>, использующего для перевода нейронную сеть.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Исправления приветствуются',
+    Svg: require('@site/static/img/github-logo.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Если вы нашли ошибку в переводе, не стесняйтесь предложить исправление.<br />
+        Код проекта доступен на <a href="https://github.com/relnofollow/stvo-ru/">GitHub</a>. 
       </>
     ),
   },
