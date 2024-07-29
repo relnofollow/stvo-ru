@@ -9,7 +9,7 @@ const config: Config = {
   trailingSlash: false,
 
   // Set the production url of your site here
-  url: 'https://stvo-ru-de.netlify.app',
+  url: 'https://stvo-ru.de',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -50,7 +50,7 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    // image: 'img/stvo-social-card.jpg',
     navbar: {
       title: 'StVO Ru',
       logo: {
