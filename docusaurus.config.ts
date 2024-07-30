@@ -35,6 +35,11 @@ const config: Config = {
         src: 'https://plausible.io/js/script.js',
         'data-domain': 'stvo-ru.de',
         defer: true
+    },
+    {
+        src: 'https://scripts.simpleanalyticscdn.com/latest.js',
+        defer: true,
+        async: true
     }
   ],
 
