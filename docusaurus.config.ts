@@ -30,6 +30,14 @@ const config: Config = {
     locales: ['ru'],
   },
 
+  scripts: [
+    {
+        src: 'https://plausible.io/js/script.js',
+        'data-domain': 'stvo-ru.de',
+        defer: true
+    }
+  ],
+
   presets: [
     [
       'classic',
