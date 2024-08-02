@@ -1,9 +1,8 @@
 ---
-sidebar_label: § 4 Расстояние ✓
-title: § 4 Расстояние
+sidebar_label: § 4 Расстояние
 ---
 
-# § 4 Расстояние <VerifiedTranslationIcon />
+# § 4 Расстояние
 
 :::info[Оригинал]
 
