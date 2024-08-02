@@ -1,8 +1,9 @@
 ---
-sidebar_label: § 3 Скорость
+sidebar_label: § 3 Скорость ✓
+title: § 3 Скорость
 ---
 
-# § 3 Скорость
+# § 3 Скорость <VerifiedTranslationIcon />
 
 :::info[Оригинал]
 
