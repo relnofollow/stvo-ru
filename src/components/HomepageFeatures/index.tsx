@@ -10,7 +10,7 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: "Перевод актуальной версии StVO (2024 год)",
+    title: "Перевод актуальной версии StVO (2023 год)",
     Svg: require("@site/static/img/gesetze-im-internet.svg").default,
     description: (
       <>
