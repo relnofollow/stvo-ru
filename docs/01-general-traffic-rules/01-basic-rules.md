@@ -1,9 +1,10 @@
 ---
-sidebar_label: § 1 Основные правила ✓
-title: § 1 Основные правила
+sidebar_label: § 1 Основные правила
 ---
 
-# § 1 Основные правила <VerifiedTranslationIcon />
+<VerifiedTranslationIcon />
+
+# § 1 Основные правила
 
 :::info[Оригинал]
 
