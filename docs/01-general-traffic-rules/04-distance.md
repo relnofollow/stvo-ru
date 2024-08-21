@@ -1,5 +1,6 @@
 ---
 sidebar_label: § 4 Расстояние
+title: § 4 Расстояние
 ---
 
 <VerifiedTranslationIcon />
