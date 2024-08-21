@@ -2,6 +2,8 @@
 sidebar_label: § 1 Основные правила
 ---
 
+<VerifiedTranslationIcon />
+
 # § 1 Основные правила
 
 :::info[Оригинал]

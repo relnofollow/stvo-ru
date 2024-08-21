@@ -2,6 +2,8 @@
 sidebar_label: § 3 Скорость
 ---
 
+<VerifiedTranslationIcon />
+
 # § 3 Скорость
 
 :::info[Оригинал]

@@ -2,6 +2,8 @@
 sidebar_label: § 4 Расстояние
 ---
 
+<VerifiedTranslationIcon />
+
 # § 4 Расстояние
 
 :::info[Оригинал]
