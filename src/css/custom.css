@@ -88,3 +88,8 @@
 .text--no-wrap {
     white-space: nowrap;
 }
+
+.theme-doc-markdown a {
+    text-decoration-line: underline;
+    text-underline-offset: 2px;
+}
