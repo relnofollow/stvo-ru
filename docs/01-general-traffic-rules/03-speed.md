@@ -1,5 +1,6 @@
 ---
 sidebar_label: § 3 Скорость
+title: § 3 Скорость
 ---
 
 <VerifiedTranslationIcon />
