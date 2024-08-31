@@ -16,7 +16,7 @@
     border: 0;
     padding: 0;
     background: transparent;
-    all: unset;
+    font-size: inherit;
 
     cursor: pointer;
     color: var(--ifm-link-color);
