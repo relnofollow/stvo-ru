@@ -1,0 +1,27 @@
+.tooltip {
+    width: max-content;
+    background-color: #fff;
+    color: var(--ifm-font-color-base);
+    font-size: 90%;
+    border-radius: 4px;
+    border: 1px solid var(--ifm-color-emphasis-400);
+    line-height: 0;
+}
+
+.tooltipArrow {
+    stroke: var(--ifm-color-emphasis-400);
+}
+
+.button {
+    border: 0;
+    padding: 0;
+    background: transparent;
+    all: unset;
+
+    cursor: pointer;
+    color: var(--ifm-link-color);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    line-height: 1;
+    text-underline-offset: 2px;
+}
