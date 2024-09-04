@@ -18,7 +18,7 @@ import { FloatingArrow, arrow } from "@floating-ui/react";
 
 const ARROW_HEIGHT = 7;
 
-export default function SignPopover({ children, signNumber }) {
+export default function TrafficSign({ sign }) {
   const [isOpen, setIsOpen] = useState(false);
   const arrowRef = useRef(null);
 
@@ -59,7 +59,7 @@ export default function SignPopover({ children, signNumber }) {
         className={styles.button}
         {...getReferenceProps()}
       >
-        {signNumber}
+        {sign}
       </button>
       <FloatingPortal>
         {isOpen && (
@@ -76,10 +76,7 @@ export default function SignPopover({ children, signNumber }) {
               strokeWidth={1}
               fill="#fff"
             />
-            <img
-              src={`/img/signs/sign_${signNumber}.jpg`}
-              alt={`Знак ${signNumber}`}
-            />
+            <img src={`/img/signs/sign_${sign}.jpg`} alt={`Знак ${sign}`} />
           </div>
         )}
       </FloatingPortal>
