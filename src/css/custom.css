@@ -80,11 +80,6 @@
     gap: 1rem;
 }
 
-.flag-img {
-    height: 1.7rem;
-    border-radius: 4px
-}
-
 .text--no-wrap {
     white-space: nowrap;
 }
