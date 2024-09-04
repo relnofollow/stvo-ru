@@ -1,9 +1,11 @@
 import MDXComponents from '@theme-original/MDXComponents';
 import VerifiedTranslationIcon from '@site/src/components/VerifiedTranslationIcon';
-import SignPopover from '@site/src/components/SignPopover';
+import TrafficSign from '@site/src/components/TrafficSign';
+import MdTab from '../components/MarkdownTab';
 
 export default {
   ...MDXComponents,
   VerifiedTranslationIcon,
-  SignPopover
+  TrafficSign,
+  MdTab
 };

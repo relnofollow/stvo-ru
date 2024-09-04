@@ -4,16 +4,41 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+    padding: 2rem;
+    text-align: center;
+    position: relative;
+    overflow: hidden;  
 }
 
-@media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+.heroTitle {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.heroSubtitle {
+    font-size: 1rem;
+}
+
+.flagImg {
+    height: 1.7rem;
+    border-radius: 4px;
+
+    display: block;
+    margin: 1rem auto;
+}
+
+@media screen and (min-width: 997px) {
+    .heroBanner {
+        padding: 4rem 0;
+    }
+
+    .heroTitle {
+        font-size: 2.5rem;
+    }
+
+    .heroSubtitle {
+        font-size: 1.5rem;
+    }
 }
 
 .buttons {
