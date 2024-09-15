@@ -17,6 +17,11 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
 
+h1,
+.markdown h1:first-child {
+  --ifm-h1-font-size: 2rem;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
@@ -84,7 +89,7 @@
     white-space: nowrap;
 }
 
-.theme-doc-markdown a {
+.theme-doc-markdown a:not(.card) {
     text-decoration-line: underline;
     text-underline-offset: 2px;
 }
