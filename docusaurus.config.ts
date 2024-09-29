@@ -30,6 +30,12 @@ const config: Config = {
     locales: ['ru'],
   },
 
+  markdown: {
+    remarkRehypeOptions: {
+        footnoteLabel: 'Примечания'
+    }
+  },
+
   scripts: [
     {
         src: 'https://plausible.io/js/script.js',
