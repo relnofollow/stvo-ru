@@ -19,6 +19,11 @@
   --sign-width: 170px;
 }
 
+html {
+    scroll-padding-top: 60px;
+    scroll-behavior: smooth;
+}
+
 h1,
 .markdown h1:first-child {
   --ifm-h1-font-size: 2rem;
