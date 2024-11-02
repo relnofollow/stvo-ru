@@ -36,6 +36,10 @@ h1,
     text-decoration-thickness: 1px;
 }
 
+.markdown > h2 {
+    --ifm-h1-font-size: 1.5rem;
+}
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --ifm-color-primary: #25c2a0;
@@ -48,13 +52,30 @@ h1,
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+.signs-table tr td {
+    vertical-align: top;
+}
+
 .signs-table tr td:nth-child(2) {
     text-align: center;
     font-weight: bold;
 }
 
+.signs-table td:nth-child(2) > img {
+    display: block;
+    margin: 6px auto;
+}
+
 .signs-table h2 {
     margin-bottom: 0;
+}
+
+.signs-table th:first-child {
+    white-space: nowrap;
+}
+
+.signs-table .subtitle {
+    font-weight: 700;
 }
 
 @media (max-width: 768px) {
@@ -72,8 +93,6 @@ h1,
     .signs-table tr td[colspan] {
         display: block;
     }
-
-
 
     .signs-table tr.section-header-row {
         border: 0 none;

@@ -12,32 +12,18 @@ sidebar_label: Приложение 4. Дорожные сооружения
 
 Приложение к [§ 43 (3)](/docs/signs-structures/traffic-facilities#3)
 
+## Раздел 1&nbsp;Средства для обозначения рабочих и аварийных мест или других временных препятствий {#1}
+
 <table className="signs-table">
-    <colgroup>
-        <col />
-        <col />
-        <col />
-    </colgroup>
     <thead>
-        <tr>
-            <th>1</th>
-            <th>2</th>
-            <th>3</th>
-        </tr>
-        <tr>
-            <th>№</th>
-            <th>Знак</th>
-            <th>Разрешение или запрет<br /> Объяснение</th>
-        </tr>
+        <th>п/п</th>
+        <th>Знак и дополнительные знаки</th>
+        <th>Требования или запреты<br /> Пояснения</th>
     </thead>
     <tbody>
-        <tr className="section-header-row">
-            <td colSpan="4"><h2>Раздел 1&nbsp;Средства для обозначения рабочих и аварийных мест или других временных
-                    препятствий</h2></td>
-        </tr>
         <tr>
             <td>1</td>
-            <td>Знак 600<br /><img src="/img/signs/sign_600.jpg" /><br /> Ограждающий барьер</td>
+            <td>Знак 600<img src="/img/signs/sign_600.jpg" /> Ограждающий барьер</td>
             <td></td>
         </tr>
         <tr>
@@ -96,17 +82,17 @@ sidebar_label: Приложение 4. Дорожные сооружения
         </tr>
         <tr>
             <td>5</td>
-            <td>Знак 610<br /><img src="/img/signs/sign_610.jpg" /><br /> Направляющий конус</td>
+            <td>Знак 610<img src="/img/signs/sign_610.jpg" /> Направляющий конус</td>
             <td></td>
         </tr>
         <tr>
             <td>6</td>
-            <td>Знак 615<br /><img src="/img/signs/sign_615.jpg" /><br />Подвижная ограждающая табличка</td>
+            <td>Знак 615<img src="/img/signs/sign_615.jpg" />Подвижная ограждающая табличка</td>
             <td></td>
         </tr>
         <tr>
             <td>7</td>
-            <td>Знак 616<br /><img src="/img/signs/sign_616.jpg" /><br />Подвижная ограждающая табличка с
+            <td>Знак 616<img src="/img/signs/sign_616.jpg" />Подвижная ограждающая табличка с
                 мигающей стрелкой</td>
             <td></td>
         </tr>
@@ -130,48 +116,70 @@ sidebar_label: Приложение 4. Дорожные сооружения
                 </dl>
             </td>
         </tr>
-        <tr className="section-header-row">
-            <td colSpan="4"><h2>Раздел 2&nbsp;Средства для обозначения постоянных препятствий или других опасных
-                    мест</h2></td>
-        </tr>
+    </tbody>
+</table>
+
+## Раздел 2&nbsp;Средства для обозначения постоянных препятствий или других опасных мест {#2}
+
+<table className="signs-table">
+    <thead>
+        <th>п/п</th>
+        <th>Знак и дополнительные знаки</th>
+        <th>Требования или запреты<br /> Пояснения</th>
+    </thead>
+    <tbody>
         <tr>
             <td>8</td>
-            <td>
-                Знак 625<br /><img src="/img/signs/sign_625.jpg" /><br />Направляющая табличка в поворотах
-            </td>
+            <td>Знак 625<img src="/img/signs/sign_625.jpg" />Направляющая табличка в поворотах</td>
             <td>Направляющая табличка в поворотах также может быть установлена в разобранном виде.</td>
         </tr>
         <tr>
             <td>9</td>
-            <td>Знак 626<br /><img src="/img/signs/sign_626.jpg" /><br />Указательная плита</td>
+            <td>Знак 626<img src="/img/signs/sign_626.jpg" />Указательная плита</td>
             <td></td>
         </tr>
         <tr>
             <td>10</td>
-            <td>Знак 627<br /><img src="/img/signs/sign_627.jpg" /><br />Указательное средство</td>
+            <td>Знак 627<img src="/img/signs/sign_627.jpg" />Указательное средство</td>
             <td>Указательные средства обычно обозначают объекты, ограничивающие движение. Их выполнение зависит от
                 вертикальной, горизонтальной или изогнутой установки, например, на строительных конструкциях, частях
                 зданий и лесах.</td>
         </tr>
-        <tr className="section-header-row">
-            <td colSpan="4"><h2>Раздел 3&nbsp;Средства для обозначения маршрута дороги</h2></td>
-        </tr>
+    </tbody>
+</table>
+
+## Раздел 3&nbsp;Средства для обозначения маршрута дороги {#3}
+
+<table className="signs-table">
+    <thead>
+        <th>п/п</th>
+        <th>Знак и дополнительные знаки</th>
+        <th>Требования или запреты<br /> Пояснения</th>
+    </thead>
+    <tbody>
         <tr>
             <td>11</td>
             <td>Знак 620<br /><img
-                    src="/img/signs/sign_620_1.jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
-                    src="/img/signs/sign_620_2.jpg" /><br /> Направляющий столб<br />
+                    src="/img/signs/sign_620_1.jpg" style={{ display: 'inline-block' }} />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img
+                    src="/img/signs/sign_620_2.jpg" style={{ display: 'inline-block' }}/><br /> Направляющий столб<br />
                 (слева)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(справа)</td>
             <td>Чтобы обозначить маршрут дороги, по бокам дороги могут располагаться направляющие столбы, обычно на
                 расстоянии 50 м и в поворотах более частые.</td>
         </tr>
-        <tr className="section-header-row">
-            <td colSpan="4"><h2>Раздел 4&nbsp;Предупредительная табличка для обозначения транспортных средств и
-                    прицепов в темное время суток</h2></td>
-        </tr>
+    </tbody>
+</table>
+
+## Раздел 4&nbsp;Предупредительная табличка для обозначения транспортных средств и прицепов в темное время суток {#4}
+<table className="signs-table">
+    <thead>
+        <th>п/п</th>
+        <th>Знак и дополнительные знаки</th>
+        <th>Требования или запреты<br /> Пояснения</th>
+    </thead>
+    <tbody>
         <tr>
             <td>12</td>
-            <td>Знак 630<br /><img src="/img/signs/sign_630.jpg" /><br />Предупредительная табличка для
+            <td>Знак 630<img src="/img/signs/sign_630.jpg" />Предупредительная табличка для
                 парковки</td>
             <td></td>
         </tr>
