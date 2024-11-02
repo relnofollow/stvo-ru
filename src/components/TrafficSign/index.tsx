@@ -18,7 +18,7 @@ import { FloatingArrow, arrow } from "@floating-ui/react";
 
 const ARROW_HEIGHT = 7;
 
-export default function TrafficSign({ sign }) {
+export default function TrafficSign({ sign, title }) {
   const [isOpen, setIsOpen] = useState(false);
   const arrowRef = useRef(null);
 
@@ -59,7 +59,7 @@ export default function TrafficSign({ sign }) {
         className={styles.button}
         {...getReferenceProps()}
       >
-        {sign}
+        {title ?? sign}
       </button>
       <FloatingPortal>
         {isOpen && (
