@@ -121,6 +121,12 @@ h1,
     display: flex;
     justify-content: center;
     gap: 1rem;
+    margin-bottom: 15px;
+}
+
+.signs-paired img {
+    display: block;
+    margin: 0 auto;
 }
 
 .text--no-wrap {
