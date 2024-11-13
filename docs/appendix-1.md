@@ -20,8 +20,8 @@ title: Приложение 1. Общие и специальные предуп
 <table className="signs-table">
     <thead>
         <tr>
-            <th>Номер по порядку</th>
-            <th>Знак</th>
+            <th>№ п/п</th>
+            <th>Знаки</th>
             <th>Пояснения</th>
         </tr>
     </thead>
@@ -129,8 +129,8 @@ title: Приложение 1. Общие и специальные предуп
 <table className="signs-table">
     <thead>
         <tr>
-            <th>Номер по порядку</th>
-            <th>Знак</th>
+            <th>№ п/п</th>
+            <th>Знаки</th>
             <th>Пояснения</th>
         </tr>
     </thead>

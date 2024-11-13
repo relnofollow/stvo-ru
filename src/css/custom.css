@@ -61,6 +61,10 @@ h1,
     font-weight: bold;
 }
 
+.signs-table tr td:last-child {
+    width: 100%;
+}
+
 .signs-table td:nth-child(2) > img {
     display: block;
     margin: 6px auto;
