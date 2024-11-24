@@ -3,7 +3,7 @@ import type {Config} from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'Перевод ПДД Германии (2023 год) на русский язык',
+  title: 'Перевод ПДД Германии на русский язык',
   tagline: 'StVO (Straßenverkehrs-Ordnung) на русском языке',
   favicon: 'img/favicon.ico',
   trailingSlash: false,

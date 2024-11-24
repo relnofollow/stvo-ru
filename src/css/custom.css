@@ -163,3 +163,38 @@ h1,
     display: block;
     margin: 0 auto 1rem; 
 }
+
+@media (max-width: 768px) {
+    .changes-table thead {
+        display: none;
+    }
+
+    .changes-table tr {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .changes-table tr:not(:first-child) {
+        margin-top: 2rem;
+    }
+
+    .changes-table tr td::before {
+        font-weight: 500;
+    }
+
+    .changes-table tr td:nth-child(1)::before {
+        content: "Дата вступления в силу: ";
+    }
+
+    .changes-table tr td:nth-child(2)::before {
+        content: "Дата публикации: ";
+    }
+
+    .changes-table tr td:nth-child(3) {
+        order: 1;
+    }
+
+    .changes-table tr td:nth-child(4)::before {
+        content: "Есть в переводе: ";
+    }
+}
