@@ -2,11 +2,6 @@ import DocCard from "@site/src/theme/DocCard";
 
 const topLevelLinks = [
   {
-    link: "/docs/intro",
-    label: "Общие сведения",
-    description: "Straßenverkehrs-Ordnung (StVO)",
-  },
-  {
     link: "/docs/category/general-traffic-rules",
     label: "I. Общие правила дорожного движения",
     description: "I. Allgemeine Verkehrsregeln",
@@ -40,6 +35,10 @@ const topLevelLinks = [
     link: "/docs/appendix-4",
     label: "Приложение 4. Дорожные сооружения",
     description: "Anlage 4 Verkehrseinrichtungen",
+  },
+  {
+    link: "/docs/changes-history",
+    label: "История изменений StVO",
   },
 ];
 
