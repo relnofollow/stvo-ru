@@ -6,7 +6,7 @@ sidebar_label: § 48 Обучение правилам дорожного дви
 
 :::info[Оригинал]
 
-[§ 48 Grundregeln für die Benutzung der Straßen](https://www.gesetze-im-internet.de/stvo_2013/__48.html)
+[§ 48 Verkehrsunterricht](https://www.gesetze-im-internet.de/stvo_2013/__48.html)
 
 :::
 Тот, кто не соблюдает правила дорожного движения, обязан пройти курс обучения по правилам дорожного
