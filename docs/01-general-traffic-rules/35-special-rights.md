@@ -1,6 +1,9 @@
 ---
 sidebar_label: § 35 Особые права
+title: § 35 Особые права
 ---
+
+<VerifiedTranslationIcon />
 
 # § 35 Особые права
 
