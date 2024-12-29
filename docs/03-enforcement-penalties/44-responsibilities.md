@@ -6,7 +6,7 @@ sidebar_label: § 44 Предметная юрисдикция
 
 :::info[Оригинал]
 
-[§ 44 Zuständigkeiten](https://www.gesetze-im-internet.de/stvo_2013/__44.html)
+[§ 44 Sachliche Zuständigkeit](https://www.gesetze-im-internet.de/stvo_2013/__44.html)
 
 :::
 

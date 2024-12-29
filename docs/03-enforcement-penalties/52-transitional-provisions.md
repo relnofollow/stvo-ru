@@ -6,7 +6,7 @@ sidebar_label: § 52 Переходные и прикладные положен
 
 :::info[Оригинал]
 
-[§ 52 Ermächtigungen](https://www.gesetze-im-internet.de/stvo_2013/__52.html)
+[§ 52 Übergangs- und Anwendungsbestimmungen](https://www.gesetze-im-internet.de/stvo_2013/__52.html)
 
 :::
 

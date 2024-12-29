@@ -6,7 +6,7 @@ sidebar_label: § 53 Вступление в силу, истечение сро
 
 :::info[Оригинал]
 
-[§ 53 Sondervorschriften für bestimmte Fahrzeugarten und Anhänger](https://www.gesetze-im-internet.de/stvo_2013/__53.html)
+[§ 53 Inkrafttreten, Außerkrafttreten](https://www.gesetze-im-internet.de/stvo_2013/__53.html)
 
 :::
 

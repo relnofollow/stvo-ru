@@ -6,7 +6,7 @@ sidebar_label: § 47 Местная юрисдикция
 
 :::info[Оригинал]
 
-[§ 47 Anhörung von Beteiligten](https://www.gesetze-im-internet.de/stvo_2013/__47.html)
+[§ 47 Örtliche Zuständigkeit](https://www.gesetze-im-internet.de/stvo_2013/__47.html)
 
 :::
 
