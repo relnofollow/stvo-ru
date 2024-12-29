@@ -7,7 +7,7 @@ sidebar_position: 51.5
 
 :::info[Оригинал]
 
-[§ 51a Überleitungsvorschrift aus Anlaß der Verordnung zur Änderung der Straßenverkehrs-Ordnung vom 6. März 2013](https://www.gesetze-im-internet.de/stvo_2013/__51a.html)
+[§ 51a Überleitung](https://www.gesetze-im-internet.de/stvo_2013/__51a.html)
 
 :::
 Федеральное правительство в лице Федерального министерства транспорта и цифровой инфраструктуры и

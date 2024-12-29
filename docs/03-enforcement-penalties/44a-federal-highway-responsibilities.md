@@ -7,7 +7,7 @@ sidebar_position: 44.5
 
 :::info[Оригинал]
 
-[§ 44a (weggefallen)](https://www.gesetze-im-internet.de/stvo_2013/__44a.html)
+[§ 44a Besondere sachliche Zuständigkeit des Fernstraßen-Bundesamtes](https://www.gesetze-im-internet.de/stvo_2013/__44a.html)
 
 :::
 

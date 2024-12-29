@@ -6,7 +6,7 @@ sidebar_label: § 50 Специальные правила для острова
 
 :::info[Оригинал]
 
-[§ 50 Verkehrsunterricht](https://www.gesetze-im-internet.de/stvo_2013/__50.html)
+[§ 50 Sonderregelung für die Insel Helgoland](https://www.gesetze-im-internet.de/stvo_2013/__50.html)
 
 :::
 На острове Гелиголанд запрещено автомобильное и велосипедное движение.

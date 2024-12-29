@@ -89,4 +89,4 @@ title: § 23 Прочие обязанности водителей трансп
 образом, чтобы его нельзя было узнать. Это не относится к случаям, указанным в предложении 1 пункта [§ 21a (2)](/docs/general-traffic-rules/21a-safety-belts#2).
 
 **Примечание**  
-(+++ § 23 (1a): О применении см. [§ 52 (4)](/docs/enforcement-penalties/authorizations#4) +++)
+(+++ § 23 (1a): О применении см. [§ 52 (4)](/docs/enforcement-penalties/transitional-provisions#4) +++)
