@@ -15,6 +15,7 @@ import {
   useClick,
 } from "@floating-ui/react";
 import { FloatingArrow, arrow } from "@floating-ui/react";
+import Link from "@docusaurus/Link";
 
 const ARROW_HEIGHT = 7;
 
@@ -52,6 +53,31 @@ export default function TrafficSign({ sign, title }) {
     role,
   ]);
 
+  const trafficSignLink = getTrafficSignLink(sign);
+
+  function getTrafficSignLink(sign: string): string | null {
+    let appendixNumber: number | undefined;
+    const signFirstDigit = Number(sign[0]);
+    if (signFirstDigit === 1) {
+      appendixNumber = 1;
+    }
+    if (signFirstDigit === 2) {
+      appendixNumber = 2;
+    }
+    if (signFirstDigit >= 3 && signFirstDigit <= 5) {
+      appendixNumber = 3;
+    }
+    if (signFirstDigit === 6) {
+      appendixNumber = 4;
+    }
+
+    if (!appendixNumber) {
+      return null;
+    }
+
+    return `/docs/appendix-${appendixNumber}#sign-${sign}`;
+  }
+
   return (
     <>
       <button
@@ -76,7 +102,14 @@ export default function TrafficSign({ sign, title }) {
               strokeWidth={1}
               fill="#fff"
             />
-            <img src={`/img/signs/sign_${sign}.jpg`} alt={`Знак ${sign}`} />
+            <div className={styles.tooltipContent}>
+              <img src={`/img/signs/sign_${sign}.jpg`} alt={`Знак ${sign}`} />
+              {trafficSignLink && (
+                <Link to={trafficSignLink} className={styles.tooltipLink}>
+                  Знак {sign}
+                </Link>
+              )}
+            </div>
           </div>
         )}
       </FloatingPortal>
