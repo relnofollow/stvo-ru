@@ -140,6 +140,7 @@ h1,
 .theme-doc-markdown a:not(.card) {
     text-decoration-line: underline;
     text-underline-offset: 2px;
+    white-space: nowrap;
 }
 
 .signs-grid {
