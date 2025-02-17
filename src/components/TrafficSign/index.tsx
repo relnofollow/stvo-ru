@@ -19,7 +19,7 @@ import Link from "@docusaurus/Link";
 
 const ARROW_HEIGHT = 7;
 
-export default function TrafficSign({ sign, title }) {
+export default function TrafficSign({ sign, title, noLink }) {
   const [isOpen, setIsOpen] = useState(false);
   const arrowRef = useRef(null);
 
@@ -53,7 +53,7 @@ export default function TrafficSign({ sign, title }) {
     role,
   ]);
 
-  const trafficSignLink = getTrafficSignLink(sign);
+  const trafficSignLink = noLink ? null : getTrafficSignLink(sign);
 
   function getTrafficSignLink(sign: string): string | null {
     let appendixNumber: number | undefined;
