@@ -1,6 +1,7 @@
 import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
+import Link from "@docusaurus/Link";
 
 type FeatureItem = {
   title: string;
@@ -22,7 +23,7 @@ const FeatureList: FeatureItem[] = [
           www.gesetze-im-internet.de
         </a>
         .<br />
-        Дата перевода: 17.07.2024.
+        Версия StVO от <Link to={"/docs/changes-history"}>11.12.2024</Link>.
       </>
     ),
   },
