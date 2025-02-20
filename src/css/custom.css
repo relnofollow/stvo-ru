@@ -150,6 +150,17 @@ h1,
     gap: 1.25rem 0.75rem;
 }
 
+.sign-modification img {
+    width: 70px;
+}
+
+.sign-modification__signs {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin: 1rem 0 0.25rem;
+}
+
 .sign-single {
     display: flex;
     justify-content: center;
