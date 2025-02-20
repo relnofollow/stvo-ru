@@ -2,9 +2,9 @@ import React, { type ReactNode } from "react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import {
-  findFirstSidebarItemLink,
   useDocById,
-} from "@docusaurus/theme-common/internal";
+  findFirstSidebarItemLink,
+} from "@docusaurus/plugin-content-docs/client";
 import { usePluralForm } from "@docusaurus/theme-common";
 import isInternalUrl from "@docusaurus/isInternalUrl";
 import { translate } from "@docusaurus/Translate";
@@ -41,7 +41,7 @@ function CardContainer({
 }: {
   href: string;
   children: ReactNode;
-}): JSX.Element {
+}): ReactNode {
   return (
     <Link
       href={href}
@@ -62,7 +62,7 @@ function CardLayout({
   icon: ReactNode;
   title: string;
   description?: string;
-}): JSX.Element {
+}): ReactNode {
   return (
     <CardContainer href={href}>
       <Heading as="h2" className={clsx(styles.cardTitle)} title={title}>
@@ -77,11 +77,7 @@ function CardLayout({
   );
 }
 
-function CardCategory({
-  item,
-}: {
-  item: PropSidebarItemCategory;
-}): JSX.Element | null {
+function CardCategory({ item }: { item: PropSidebarItemCategory }): ReactNode {
   const href = findFirstSidebarItemLink(item);
   const categoryItemsPlural = useCategoryItemsPlural();
 
@@ -100,7 +96,7 @@ function CardCategory({
   );
 }
 
-function CardLink({ item }: { item: PropSidebarItemLink }): JSX.Element {
+function CardLink({ item }: { item: PropSidebarItemLink }): ReactNode {
   const icon = isInternalUrl(item.href) ? "📄️" : "🔗";
   const doc = useDocById(item.docId ?? undefined);
   return (
@@ -113,7 +109,7 @@ function CardLink({ item }: { item: PropSidebarItemLink }): JSX.Element {
   );
 }
 
-export default function DocCard({ item }: Props): JSX.Element {
+export default function DocCard({ item }: Props): ReactNode {
   switch (item.type) {
     case "link":
       return <CardLink item={item} />;

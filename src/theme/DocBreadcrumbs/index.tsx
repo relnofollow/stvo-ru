@@ -1,10 +1,8 @@
 import React, { type ReactNode } from "react";
 import clsx from "clsx";
 import { ThemeClassNames } from "@docusaurus/theme-common";
-import {
-  useSidebarBreadcrumbs,
-  useHomePageRoute,
-} from "@docusaurus/theme-common/internal";
+import { useSidebarBreadcrumbs } from "@docusaurus/plugin-content-docs/client";
+import { useHomePageRoute } from "@docusaurus/theme-common/internal";
 import Link from "@docusaurus/Link";
 import { translate } from "@docusaurus/Translate";
 import HomeBreadcrumbItem from "@theme/DocBreadcrumbs/Items/Home";
@@ -20,7 +18,7 @@ function BreadcrumbsItemLink({
   children: ReactNode;
   href: string | undefined;
   isLast: boolean;
-}): JSX.Element {
+}): ReactNode {
   const className = "breadcrumbs__link";
   if (isLast) {
     return (
@@ -54,7 +52,7 @@ function BreadcrumbsItem({
   active?: boolean;
   index: number;
   addMicrodata: boolean;
-}): JSX.Element {
+}): ReactNode {
   return (
     <li
       {...(addMicrodata && {
@@ -72,7 +70,7 @@ function BreadcrumbsItem({
   );
 }
 
-export default function DocBreadcrumbs(): JSX.Element | null {
+export default function DocBreadcrumbs(): ReactNode {
   const breadcrumbs = useSidebarBreadcrumbs();
   const homePageRoute = useHomePageRoute();
 
