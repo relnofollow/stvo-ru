@@ -67,6 +67,13 @@ const config: Config = {
     ],
   ],
 
+  plugins:  [
+    ['docusaurus-lunr-search', { 
+        languages: ['ru'],
+        highlightResult: true,
+    }],
+  ],
+
   themeConfig: {
     // Replace with your project's social card
     // image: 'img/stvo-social-card.jpg',
