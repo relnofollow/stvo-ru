@@ -1,0 +1,6 @@
+.comments {
+    margin-top: var(--ifm-global-spacing);
+    padding: var(--ifm-global-spacing);
+    border: 1px solid var(--ifm-color-emphasis-300);
+    border-radius: var(--ifm-pagination-nav-border-radius);
+}
