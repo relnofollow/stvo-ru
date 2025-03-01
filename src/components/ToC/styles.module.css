@@ -1,0 +1,23 @@
+.linksList {
+    list-style-type: none;
+    margin-bottom: 1.4rem;
+}
+
+.linksListItem {
+    line-height: 1.4rem;
+}
+
+.linksListItem:not(:first-child) {
+    margin-top: 0.65rem;
+}
+
+.link {
+    white-space: normal !important;
+    text-decoration: none !important;
+}
+
+@media (max-width: 768px) {
+    .linksListItem:not(:first-child) {
+        margin-top: 1rem;
+    }
+}

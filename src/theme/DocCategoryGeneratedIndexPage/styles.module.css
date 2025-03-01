@@ -3,7 +3,7 @@
     max-width: 75% !important;
   }
 
-  .list article:nth-last-child(-n + 2) {
+  .list article:last-child {
     margin-bottom: 0 !important;
   }
 }

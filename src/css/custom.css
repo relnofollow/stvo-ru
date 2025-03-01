@@ -214,4 +214,17 @@ h1,
     .changes-table tr td:nth-child(4)::before {
         content: "Есть в переводе: ";
     }
+
+    .toc-section > h2 {
+        position: sticky;
+        top: 60px;
+        background-color: var(--ifm-color-gray-200);
+        padding: 0.5rem 1rem;
+        font-size: 1.1rem;
+        border-radius: 4px;
+    }
+}
+
+.theme-admonition a {
+    white-space: normal !important;
 }

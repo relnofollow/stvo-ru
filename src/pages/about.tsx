@@ -1,5 +1,6 @@
 import React from "react";
 import Layout from "@theme/Layout";
+import Disclaimer from "@site/src/components/Disclaimer";
 
 export default function About() {
   return (
@@ -12,13 +13,7 @@ export default function About() {
           <div className="row">
             <div className="col col--offset-2 col--8">
               <h1 className="margin-bottom--lg">О проекте "StVO Ru"</h1>
-              <div className="alert alert--info margin-bottom--md" role="alert">
-                <span className="text--bold">ВАЖНО!</span>
-                <br />
-                Перевод ПДД на этом сайте выполнен с помощью сервиса{" "}
-                <b>машинного перевода</b>, может содержать неточности и{" "}
-                <b>не является</b> официальным переводом StVO на русский язык.
-              </div>
+              <Disclaimer className="margin-bottom--lg" />
               <p>Hallo 👋 Меня зовут Лена, я живу в Берлине 🏙</p>
               <p>
                 Цель этого сайта - помочь русскоговорящим людям познакомиться с
