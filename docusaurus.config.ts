@@ -90,6 +90,7 @@ const config: Config = {
           position: 'left',
           label: 'ПДД Германии',
         },
+        {to: '/download', label: 'Скачать PDF', position: 'left'},
         {to: '/about', label: 'О проекте', position: 'left'},
         {
             href: 'https://www.gesetze-im-internet.de/stvo_2013/',

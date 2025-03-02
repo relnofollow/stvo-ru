@@ -1,0 +1,18 @@
+.downloadContainer {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 769px) {
+    .downloadContainer {
+        flex-flow: row;
+        align-items: start;
+        justify-content: space-between;
+        gap: 1rem;
+    }
+
+    .downloadContainer__file {
+        flex: 0 0 auto;
+    }
+}
