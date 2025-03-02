@@ -18,8 +18,11 @@ function HomepageHeader() {
         </Heading>
         <p className={styles.heroSubtitle}>{siteConfig.tagline}</p>
         <div className={styles.buttons}>
-          <Link className="button button--secondary button--lg" to="/docs">
+          <Link className="button button--warning button--lg" to="/docs">
             Перейти к правилам
+          </Link>
+          <Link className="button button--secondary button--lg" to="/download">
+            Скачать PDF
           </Link>
         </div>
       </div>
