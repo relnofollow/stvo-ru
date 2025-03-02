@@ -42,7 +42,15 @@
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 769px) {
+    .buttons {
+        flex-flow: row;
+    }
 }
