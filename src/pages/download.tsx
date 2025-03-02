@@ -5,7 +5,15 @@ import Disclaimer from "@site/src/components/Disclaimer";
 import { PRINT_DATE, STVO_VERSION } from "@site/src/common/consts";
 import styles from "./download.module.css";
 
-export default function About() {
+export default function Download() {
+  const trackClick = () => {
+    if (window["sa_event"]) {
+      window.sa_event("click_download_pdf");
+    }
+
+    return true;
+  };
+
   return (
     <Layout
       title="Скачать правила дорожного движения Германии"
@@ -44,6 +52,7 @@ export default function About() {
 
                   <a
                     href={`/downloads/stvo-ru-${STVO_VERSION}.pdf`}
+                    onClick={trackClick}
                     className="button button--lg button--primary"
                     download={true}
                   >
