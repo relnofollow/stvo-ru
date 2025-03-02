@@ -82,7 +82,7 @@ h1,
     font-weight: 700;
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .signs-table tr {
         display: flex;
         flex-flow: column;
@@ -181,7 +181,7 @@ h1,
     margin: 0 auto 1rem; 
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .changes-table thead {
         display: none;
     }
@@ -227,4 +227,23 @@ h1,
 
 .theme-admonition a {
     white-space: normal !important;
+}
+
+@media print {
+    .theme-doc-footer,
+    .theme-doc-breadcrumbs,
+    .no-print,
+    [class^="skipToContent"] {
+        display: none;
+    }
+}
+
+.h-align-center {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.button--warning, .button--warning:hover, .button--warning:active, .button--warning:focus {
+    color: var(--ifm-color-gray-900);
 }

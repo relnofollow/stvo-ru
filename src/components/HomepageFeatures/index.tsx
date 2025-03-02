@@ -2,6 +2,7 @@ import clsx from "clsx";
 import Heading from "@theme/Heading";
 import styles from "./styles.module.css";
 import Link from "@docusaurus/Link";
+import { STVO_VERSION } from "@site/src/common/consts";
 
 type FeatureItem = {
   title: string;
@@ -23,7 +24,7 @@ const FeatureList: FeatureItem[] = [
           www.gesetze-im-internet.de
         </a>
         .<br />
-        Версия StVO от <Link to={"/docs/changes-history"}>11.12.2024</Link>.
+        Версия StVO от <Link to={"/docs/changes-history"}>{STVO_VERSION}</Link>.
       </>
     ),
   },
