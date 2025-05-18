@@ -51,7 +51,7 @@ export default function Download() {
                   </table>
 
                   <a
-                    href={`/downloads/stvo-ru-${STVO_VERSION}.pdf`}
+                    href={"https://relnofollow.gumroad.com/l/stvo-ru"}
                     onClick={trackClick}
                     className="button button--lg button--primary"
                     download={true}
