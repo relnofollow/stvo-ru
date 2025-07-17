@@ -1081,7 +1081,7 @@ title: Приложение 3. Регулирующие знаки
         <tr>
             <td>82.1</td>
             <td id="sign-531.1">![](/img/signs/sign_531.1.jpg)</td>
-            <td><span className="subtitle">Пояснение</span><br /> На табличке со схемой сужения указывается место, где должен происходить переход полос по принципу застежки-молнии ([§ 7 (4)](/docs/general-traffic-rules/lane-use#4)).</td>
+            <td><span className="subtitle">Пояснение</span><br /> На табличке со схемой сужения указывается место, где должен происходить переход полос по принципу застёжки-молнии ([§ 7 (4)](/docs/general-traffic-rules/lane-use#4)).</td>
         </tr>
         <tr>
             <td colSpan="3"><span>3. Объезд блока</span></td>
