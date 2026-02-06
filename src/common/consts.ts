@@ -1,2 +1,2 @@
-export const STVO_VERSION = "11.12.2024";
-export const PRINT_DATE = "01.03.2025";
+export const STVO_VERSION = "01.01.2025";
+export const PRINT_DATE = "06.02.2026";
