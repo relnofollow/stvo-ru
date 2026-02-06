@@ -36,12 +36,12 @@ export default function Download() {
                         <td>{STVO_VERSION}</td>
                       </tr>
                       <tr>
-                        <td>Дата создания документа</td>
+                        <td>Дата создания файла</td>
                         <td>{PRINT_DATE}</td>
                       </tr>
                       <tr>
                         <td>Размер файла</td>
-                        <td>2.627 KB</td>
+                        <td>2.627 KB (167 страниц)</td>
                       </tr>
                       <tr>
                         <td>Название файла</td>
